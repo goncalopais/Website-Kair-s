@@ -98,6 +98,5 @@ Pesquisa, ordenação e vista grelha/lista; filtros ativos removíveis; painel l
 ## Organização do repositório
 
 - `README.md` — esta página
-- `assets/kairos-logotipo.png` — logótipo
 - `Mockup/kairos-esquemas.drawio` — esquemas editáveis (draw.io)
 - `Mockup/*.png` — esquemas exportados (início e catálogo, mobile e desktop)
