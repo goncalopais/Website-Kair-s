@@ -60,32 +60,32 @@ Início .................. destaques, novidades e pesquisa
 ## 5. Esquemas
 
 
-Feitos no [draw.io](https://app.diagrams.net) com a biblioteca de formas **Mockups**.
-Ficheiro editável: [`mockups/kairos-esquemas.drawio`](mockups/kairos-esquemas.drawio) (4 separadores).
+Feitos no [draw.io](https://app.diagrams.net) com a biblioteca de formas **Mockup**.
+Ficheiro editável: [`Mockup/kairos-esquemas.drawio`](Mockup/kairos-esquemas.drawio) (4 separadores).
 
 ### Página inicial · Mobile
 
 Menu (☰), logótipo e pesquisa; imagem de destaque com "Explorar catálogo" e "Vender o meu relógio"; pesquisa; marcas em destaque (deslizante); novidades em 2 colunas; "Como funciona" em 3 passos; newsletter e rodapé.
 
-<img src="mockups/inicio-mobile.png" alt="Página inicial · Mobile" width="320">
+<img src="Mockup/inicio-mobile.png" alt="Página inicial · Mobile" width="320">
 
 ### Página inicial · Desktop
 
 Navegação completa com Pesquisa, Favoritos e Conta; destaque em largura total; pesquisa com filtros de marca e preço; 6 marcas em destaque; 4 novidades; "Como funciona" em 3 passos; newsletter e rodapé.
 
-![Página inicial · Desktop](mockups/inicio-desktop.png)
+![Página inicial · Desktop](Mockup/inicio-desktop.png)
 
 ### Catálogo (Comprar) · Mobile
 
 Caminho (Início › Comprar) e nº de resultados; pesquisa; botões "Filtros" (abre um painel por cima da grelha) e "Ordenar"; filtros ativos removíveis; grelha de 2 colunas com favoritos; "Carregar mais".
 
-<img src="mockups/catalogo-mobile.png" alt="Catálogo · Mobile" width="320">
+<img src="Mockup/catalogo-mobile.png" alt="Catálogo · Mobile" width="320">
 
 ### Catálogo (Comprar) · Desktop
 
 Pesquisa, ordenação e vista grelha/lista; filtros ativos removíveis; painel lateral de filtros (marca, estado, material, preço, ano, caixa e papéis); grelha de 3×3 relógios com favoritos; paginação.
 
-![Catálogo · Desktop](mockups/catalogo-desktop.png)
+![Catálogo · Desktop](Mockup/catalogo-desktop.png)
 
 ## 6. Referências
 
@@ -99,5 +99,5 @@ Pesquisa, ordenação e vista grelha/lista; filtros ativos removíveis; painel l
 
 - `README.md` — esta página
 - `assets/kairos-logotipo.png` — logótipo
-- `mockups/kairos-esquemas.drawio` — esquemas editáveis (draw.io)
-- `mockups/*.png` — esquemas exportados (início e catálogo, mobile e desktop)
+- `Mockup/kairos-esquemas.drawio` — esquemas editáveis (draw.io)
+- `Mockup/*.png` — esquemas exportados (início e catálogo, mobile e desktop)
