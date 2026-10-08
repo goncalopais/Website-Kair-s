@@ -59,7 +59,6 @@ Início .................. destaques, novidades e pesquisa
 
 ## 5. Esquemas
 
-## 5. Esquemas
 
 Feitos no [draw.io](https://app.diagrams.net) com a biblioteca de formas **Mockups**.
 Ficheiro editável: [`mockups/kairos-esquemas.drawio`](mockups/kairos-esquemas.drawio) (4 separadores).
@@ -100,5 +99,5 @@ Pesquisa, ordenação e vista grelha/lista; filtros ativos removíveis; painel l
 
 - `README.md` — esta página
 - `assets/kairos-logotipo.png` — logótipo
-- `esquemas/kairos-esquemas.drawio` — esquemas editáveis (draw.io)
-- `esquemas/*.png` — esquemas exportados (início e catálogo, mobile e desktop)
+- `mockups/kairos-esquemas.drawio` — esquemas editáveis (draw.io)
+- `mockups/*.png` — esquemas exportados (início e catálogo, mobile e desktop)
