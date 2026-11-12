@@ -3,7 +3,7 @@
 
 > **Desenvolvimento para a Web** · Licenciatura em Ciência de Dados para a Gestão · 2026/2027
 
-Entrega 1: Identificação do projeto
+Entrega 1: Identificação do projeto · Entrega 2: Website responsivo
 
 ## 1. Grupo
 
@@ -19,6 +19,35 @@ Entrega 1: Identificação do projeto
 Nasce para dar confiança a um mercado onde a autenticidade, o estado e o preço justo são difíceis de verificar: cada relógio é inspecionado e autenticado por relojoeiros antes de ser publicado, com ficha técnica completa, fotografias reais e histórico.
 
 O nome vem do grego *kairós*, que significa, "o momento certo" , a ideia de que cada relógio tem o seu momento para mudar de pulso.
+
+## Website (Entrega 2)
+
+**Ver online:** https://goncalopais.github.io/Website-Kair-s/
+
+Três páginas completas, em HTML, CSS e JavaScript (sem frameworks), seguindo a estrutura dada nas aulas (exemplo *Sistema Solar*):
+
+| Página | Ficheiro | Conteúdo |
+|---|---|---|
+| Início | [`index.html`](index.html) | Hero, marcas em destaque, novidades (cartões), autenticação em números (ícones SVG), chamada para vender e newsletter |
+| Catálogo | [`catalogo.html`](catalogo.html) | Cartões criados com JavaScript a partir de um array, com pesquisa, filtro por marca e preço e ordenação |
+| Relógio | [`relogio.html`](relogio.html?id=rolex-submariner-date) | Artigo + barra lateral com ficha técnica, índice com âncoras, formulário de proposta validado só com HTML e CSS, e relógios semelhantes |
+
+**Responsividade** (*mobile first*, com Flexbox, CSS Grid e *media queries* nos mesmos pontos do Tailwind):
+
+- **Telemóvel:** botão "☰ Menu" (js/menu.js), cartões numa coluna, artigo e ficha técnica empilhados.
+- **sm (≥ 640 px):** cartões em 2 colunas.
+- **md (≥ 768 px):** menu sempre visível em linha, hero em 2 colunas, campos dos formulários lado a lado.
+- **lg (≥ 1024 px):** cartões em 3 ou 4 colunas, filtros numa linha, artigo + barra lateral fixa (*sticky*).
+
+Para ver no computador, basta abrir o `index.html` no browser.
+
+### Capturas
+
+| Telemóvel | Desktop |
+|---|---|
+| <img src="capturas/inicio-mobile.png" width="220"> | <img src="capturas/inicio-desktop.png" width="520"> |
+| <img src="capturas/catalogo-mobile.png" width="220"> | <img src="capturas/catalogo-desktop.png" width="520"> |
+| <img src="capturas/relogio-mobile.png" width="220"> | <img src="capturas/relogio-desktop.png" width="520"> |
 
 ## 3. Estrutura do website
 
@@ -97,6 +126,22 @@ Pesquisa, ordenação e vista grelha/lista; filtros ativos removíveis; painel l
 
 ## Organização do repositório
 
-- `README.md` — esta página
-- `Mockup/kairos-esquemas.drawio` — esquemas editáveis (draw.io)
-- `Mockup/*.png` — esquemas exportados (início e catálogo, mobile e desktop)
+```
+├── index.html            Página inicial
+├── catalogo.html         Catálogo com pesquisa e filtros
+├── relogio.html          Página de um relógio (relogio.html?id=...)
+├── css/
+│   └── estilos.css       Estilos (mobile first + media queries)
+├── js/
+│   ├── menu.js           Botão do menu em ecrãs pequenos
+│   ├── relogios.js       Dados (array de relógios) e função criarCartao()
+│   ├── catalogo.js       Mostra e filtra os relógios no catálogo
+│   └── relogio.js        Preenche a página de um relógio
+├── img/
+│   ├── relogios/         Ilustrações SVG dos relógios
+│   ├── icones/           Ícones SVG da ficha técnica
+│   └── favicon.svg
+├── capturas/             Capturas de ecrã (telemóvel e desktop)
+├── Mockup/               Esquemas do draw.io (Entrega 1)
+└── README.md
+```
